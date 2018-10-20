@@ -1,0 +1,878 @@
+﻿Log file open, 10/19/18 19:58:57
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: QuincyTheQuadrapus
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.358881
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.150s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: AMD FX(tm)-8350 Eight-Core Processor           , GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.19-23.58.58:073][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.19-23.58.58:073][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.19-23.58.58:096][  0]LogHAL: Display: Platform has ~ 16 GB [17124220928 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.19-23.58.58:096][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.19-23.58.58:096][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.19-23.58.58:096][  0]LogInit: Computer: DESKTOP-3BRA7NQ
+[2018.10.19-23.58.58:096][  0]LogInit: User: mjdea
+[2018.10.19-23.58.58:096][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.19-23.58.58:096][  0]LogInit: High frequency timer resolution =3.906267 MHz
+[2018.10.19-23.58.58:097][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.10.19-23.58.58:097][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.19-23.58.58:097][  0]LogMemory: Process Physical Memory: 100.56 MB used, 100.56 MB peak
+[2018.10.19-23.58.58:097][  0]LogMemory: Process Virtual Memory: 89.39 MB used, 89.39 MB peak
+[2018.10.19-23.58.58:097][  0]LogMemory: Physical Memory: 6778.27 MB used,  9552.66 MB free, 16330.93 MB total
+[2018.10.19-23.58.58:097][  0]LogMemory: Virtual Memory: 4643.33 MB used,  9552.66 MB free, 134217728.00 MB total
+[2018.10.19-23.58.58:129][  0]LogInit: Using OS detected language (en-US).
+[2018.10.19-23.58.58:129][  0]LogInit: Using OS detected locale (en-US).
+[2018.10.19-23.58.58:130][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.19-23.58.58:692][  0]LogStreaming: Display: Took  0.563s to InitEngineTextLocalization.
+[2018.10.19-23.58.58:692][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.19-23.58.58:797][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.19-23.58.58:797][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.19-23.58.59:143][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.19-23.58.59:143][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.19-23.58.59:237][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.10.19-23.58.59:237][  0]LogD3D11RHI:       4043/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.10.19-23.58.59:240][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.19-23.58.59:240][  0]LogD3D11RHI:       0/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.19-23.58.59:240][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.19-23.58.59:251][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.19-23.58.59:251][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.19-23.58.59:251][  0]LogWindows: EnumDisplayDevices:
+[2018.10.19-23.58.59:252][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.10.19-23.58.59:252][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.10.19-23.58.59:252][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.10.19-23.58.59:253][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.10.19-23.58.59:253][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.10.19-23.58.59:253][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.10.19-23.58.59:253][  0]LogD3D11RHI:   Driver Version: 397.93 (internal:24.21.13.9793, unified:397.93)
+[2018.10.19-23.58.59:253][  0]LogD3D11RHI:      Driver Date: 5-22-2018
+[2018.10.19-23.58.59:253][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2018.10.19-23.58.59:315][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.19-23.58.59:356][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.19-23.58.59:507][  0]LogShaderCompilers: Guid format shader working directory is -44 characters bigger than the processId version (../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Intermediate/Shaders/WorkingDirectory/15656/).
+[2018.10.19-23.58.59:507][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mjdea/AppData/Local/Temp/UnrealShaderWorkingDir/34BE0DD24D6D7869618066ADE25A1A88/'.
+[2018.10.19-23.58.59:862][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.19-23.58.59:889][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.19-23.58.59:912][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.19-23.58.59:934][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.19-23.58.59:957][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.19-23.58.59:984][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.19-23.59.00:013][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.19-23.59.00:039][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.19-23.59.00:053][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.19-23.59.00:189][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.19-23.59.00:189][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.19-23.59.00:189][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.19-23.59.00:189][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.19-23.59.00:189][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.19-23.59.00:189][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.19-23.59.00:189][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.19-23.59.00:189][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.19-23.59.00:189][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.19-23.59.00:189][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.19-23.59.00:189][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.19-23.59.00:189][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.19-23.59.00:189][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.19-23.59.00:189][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.19-23.59.00:189][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.19-23.59.00:189][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.19-23.59.00:189][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.19-23.59.00:189][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.19-23.59.00:191][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.19-23.59.00:272][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.19-23.59.00:272][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.19-23.59.00:318][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.19-23.59.00:318][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.19-23.59.00:340][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.19-23.59.00:362][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.19-23.59.00:387][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.19-23.59.00:411][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.19-23.59.00:426][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.19-23.59.00:427][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.19-23.59.00:531][  0]LogXGEController: Cleaning working directory: C:/Users/mjdea/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.19-23.59.00:532][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.19-23.59.00:532][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.19-23.59.00:532][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.19-23.59.01:769][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.19-23.59.01:896][  0]LogDerivedDataCache: Loaded boot cache 0.13s 71MB C:/Users/mjdea/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.19-23.59.01:897][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/mjdea/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.19-23.59.01:897][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.19-23.59.01:897][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.19-23.59.01:897][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.19-23.59.01:897][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.19-23.59.01:915][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.19-23.59.01:928][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mjdea/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.19-23.59.01:928][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.19-23.59.01:928][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.19-23.59.01:957][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.19-23.59.01:959][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.19-23.59.01:960][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.19-23.59.02:062][  0]LogAssetRegistry: FAssetRegistry took 0.0289 seconds to start up
+[2018.10.19-23.59.02:621][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.19-23.59.02:806][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.19-23.59.02:812][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.19-23.59.02:812][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.19-23.59.02:812][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.19-23.59.02:812][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.19-23.59.02:859][  0]LogNetVersion: QuincyTheQuadrapus 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1832940493)
+[2018.10.19-23.59.03:630][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.162322 seconds
+[2018.10.19-23.59.03:639][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.19-23.59.03:639][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.10.19-23.59.03:639][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.19-23.59.04:826][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.19-23.59.04:842][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.19-23.59.05:042][  0]SourceControl: Source control is disabled
+[2018.10.19-23.59.05:043][  0]SourceControl: Source control is disabled
+[2018.10.19-23.59.05:044][  0]SourceControl: Source control is disabled
+[2018.10.19-23.59.05:046][  0]SourceControl: Source control is disabled
+[2018.10.19-23.59.05:273][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.19-23.59.05:448][  0]LogOcInput: OculusInput pre-init called
+[2018.10.19-23.59.05:537][  0]LogEngine: Initializing Engine...
+[2018.10.19-23.59.05:539][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.19-23.59.05:541][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.19-23.59.05:541][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.19-23.59.05:541][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.19-23.59.05:541][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.19-23.59.05:854][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.19-23.59.05:885][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.19-23.59.05:946][  0]LogInit: XAudio2 using 'Headset Earphone (5- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.19-23.59.05:967][  0]LogInit: FAudioDevice initialized.
+[2018.10.19-23.59.05:968][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.19-23.59.06:100][  0]LogDerivedDataCache: Saved boot cache 0.13s 71MB C:/Users/mjdea/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.19-23.59.06:122][  0]LogInit: Texture streaming: Enabled
+[2018.10.19-23.59.06:156][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.19-23.59.06:179][  0]LogInit: Transaction tracking system initialized
+[2018.10.19-23.59.06:216][  0]BlueprintLog: New page: Editor Load
+[2018.10.19-23.59.06:344][  0]LocalizationService: Localization service is disabled
+[2018.10.19-23.59.06:428][  0]LogLinker: Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2018.10.19-23.59.06:428][  0]LogLinker: Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2018.10.19-23.59.06:428][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/TopDownBP/TopDownOverview.TopDownOverview_C'
+[2018.10.19-23.59.06:734][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.19-23.59.06:734][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.19-23.59.06:735][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.19-23.59.06:735][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.19-23.59.06:735][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.19-23.59.06:735][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.19-23.59.06:735][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.19-23.59.06:825][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/' took 0.02s
+[2018.10.19-23.59.06:950][  0]SourceControl: Source control is disabled
+[2018.10.19-23.59.06:951][  0]LightingResults: New page: Lighting Build
+[2018.10.19-23.59.06:956][  0]MapCheck: New page: Map Check
+[2018.10.19-23.59.06:956][  0]LightingResults: New page: Lighting Build
+[2018.10.19-23.59.07:719][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.19-23.59.07:734][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.19-23.59.07:836][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.19-23.59.07:956][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 119.917ms to complete.
+[2018.10.19-23.59.07:957][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.006
+[2018.10.19-23.59.08:191][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-23.59.08:205][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-23.59.08:217][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-23.59.08:228][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-23.59.08:239][  0]LogCollectionManager: Loaded 0 collections in 0.002939 seconds
+[2018.10.19-23.59.08:320][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/Collections/' took 0.01s
+[2018.10.19-23.59.08:320][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/Developers/mjdea/Collections/' took 0.01s
+[2018.10.19-23.59.08:320][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/Collections/' took 0.01s
+[2018.10.19-23.59.08:320][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.10.19-23.59.08:338][  0]LogContentBrowser: Native class hierarchy populated in 0.0178 seconds. Added 2572 classes and 603 folders.
+[2018.10.19-23.59.08:349][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.19-23.59.08:426][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.19-23.59.08:435][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.10.19-23.59.08:535][  0]LogSlate: Took 0.000487 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.19-23.59.08:541][  0]LogSlate: Took 0.000888 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.19-23.59.08:554][  0]LogSlate: Took 0.000728 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.19-23.59.08:683][  0]LogRenderer: Reallocating scene render targets to support 1252x580 Format 10 NumSamples 1 (Frame:1).
+[2018.10.19-23.59.08:891][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.10.19-23.59.08:891][  0]LogLoad: (Engine Initialization) Total time: 13.45 seconds
+[2018.10.19-23.59.08:891][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.19-23.59.08:902][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.19-23.59.08:926][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.19-23.59.08:973][  0]LogSlate: Took 0.000321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.19-23.59.09:109][  2]LogAssetRegistry: Asset discovery search completed in 7.0698 seconds
+[2018.10.19-23.59.09:113][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.19-23.59.09:113][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000097 seconds (updated 0 objects)
+[2018.10.19-23.59.09:988][ 48]LogSlate: Took 0.000356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.19-23.59.11:938][195]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-23.59.12:013][203]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.19-23.59.12:043][203]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.19-23.59.12:044][203]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.19-23.59.12:057][203]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 19, 2018, 3:59:12 PM)
+[2018.10.19-23.59.12:057][203]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.19-23.59.12:095][203]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038141s)
+[2018.10.19-23.59.12:097][203]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.19-23.59.12:098][203]LogPlayLevel: PIE: World Init took: (0.001922s)
+[2018.10.19-23.59.12:098][203]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.040368s)
+[2018.10.19-23.59.12:243][203]LogInit: XAudio2 using 'Headset Earphone (5- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.19-23.59.12:256][203]LogInit: FAudioDevice initialized.
+[2018.10.19-23.59.12:309][203]LogLoad: Game class is 'LevelGM_C'
+[2018.10.19-23.59.12:312][203]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-19.59.12
+[2018.10.19-23.59.12:312][203]LogWorld: Bringing up level for play took: 0.001466
+[2018.10.19-23.59.12:335][203]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 10 classes and 0 folders.
+[2018.10.19-23.59.12:336][203]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-23.59.12:336][203]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.19-23.59.12:336][203]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-23.59.12:342][203]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.19-23.59.12:342][203]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.05
+[2018.10.19-23.59.12:342][203]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.19-23.59.13:349][284]LogBlueprintUserMessages: [Quincy_C_0] WIN
+[2018.10.19-23.59.38:638][268]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.19-23.59.38:638][268]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-23.59.38:681][268]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.19-23.59.38:682][268]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.19-23.59.38:769][268]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.19-23.59.38:834][269]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.10.19-23.59.41:179][400]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.19-23.59.44:775][630]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/PauseMenu.PauseMenu
+[2018.10.19-23.59.45:701][630]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 116 classes and 0 folders.
+[2018.10.19-23.59.47:072][630]LogSlate: Took 0.000903 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.19-23.59.49:150][679]LogSlate: Window 'PauseMenu' being destroyed
+[2018.10.20-00.00.12:493][484]LogSlate: Took 0.003191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.10.20-00.00.36:702][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PauseMenu" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/PauseMenu.uasset" SILENT=true
+[2018.10.20-00.00.36:757][398]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/PauseMenu6A78981548070DA912F43889A4C00EBD.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/PauseMenu.uasset'
+[2018.10.20-00.00.46:265][759]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PauseMenu" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/PauseMenu.uasset" SILENT=true
+[2018.10.20-00.00.46:301][759]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/PauseMenuC40C9E57435B174527C8679BC9E8D872.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/PauseMenu.uasset'
+[2018.10.20-00.00.47:123][775]BlueprintLog: New page: Compile PauseMenu
+[2018.10.20-00.00.47:768][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PauseMenu" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/PauseMenu.uasset" SILENT=true
+[2018.10.20-00.00.47:799][783]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/PauseMenuB4B6A0FB4219A5860623EFB78253F711.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/PauseMenu.uasset'
+[2018.10.20-00.00.49:029][875]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.20-00.00.49:065][875]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.00.49:066][875]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.20-00.00.49:066][875]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 19, 2018, 4:00:49 PM)
+[2018.10.20-00.00.49:066][875]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.20-00.00.49:085][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019368s)
+[2018.10.20-00.00.49:087][875]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.20-00.00.49:087][875]LogPlayLevel: PIE: World Init took: (0.001984s)
+[2018.10.20-00.00.49:087][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021616s)
+[2018.10.20-00.00.49:231][875]LogInit: XAudio2 using 'Headset Earphone (5- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.20-00.00.49:244][875]LogInit: FAudioDevice initialized.
+[2018.10.20-00.00.49:284][875]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-00.00.49:399][875]LogLoad: Game class is 'LevelGM_C'
+[2018.10.20-00.00.49:402][875]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-20.00.49
+[2018.10.20-00.00.49:402][875]LogWorld: Bringing up level for play took: 0.002349
+[2018.10.20-00.00.49:418][875]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.20-00.00.49:418][875]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.20-00.00.49:418][875]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.20-00.00.49:422][875]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.20-00.00.49:425][875]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.132
+[2018.10.20-00.00.49:426][875]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.00.49:491][875]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2018.10.20-00.00.49:978][883]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.00.49:979][883]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-00.00.50:013][883]LogSlate: Window 'QuincyTheQuadrapus Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.20-00.00.50:057][883]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.20-00.00.50:057][883]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.00.50:233][884]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.10.20-00.00.53:895][ 76]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/LevelUI.LevelUI
+[2018.10.20-00.01.08:605][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LevelUI" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset" SILENT=true
+[2018.10.20-00.01.08:663][546]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/LevelUI112420EC449BA4CE3CE4D19057C35D10.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset'
+[2018.10.20-00.01.10:014][577]BlueprintLog: New page: Compile LevelUI
+[2018.10.20-00.01.10:649][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LevelUI" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset" SILENT=true
+[2018.10.20-00.01.10:691][584]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/LevelUIDAB58D0F4BB0F89AE42ED8A26369BA76.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset'
+[2018.10.20-00.01.11:162][611]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.20-00.01.11:209][611]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.01.11:209][611]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.20-00.01.11:210][611]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 19, 2018, 4:01:11 PM)
+[2018.10.20-00.01.11:210][611]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.20-00.01.11:237][611]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026901s)
+[2018.10.20-00.01.11:239][611]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.20-00.01.11:239][611]LogPlayLevel: PIE: World Init took: (0.002232s)
+[2018.10.20-00.01.11:240][611]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.029414s)
+[2018.10.20-00.01.11:396][611]LogInit: XAudio2 using 'Headset Earphone (5- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.20-00.01.11:410][611]LogInit: FAudioDevice initialized.
+[2018.10.20-00.01.11:457][611]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-00.01.11:574][611]LogLoad: Game class is 'LevelGM_C'
+[2018.10.20-00.01.11:580][611]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-20.01.11
+[2018.10.20-00.01.11:581][611]LogWorld: Bringing up level for play took: 0.004160
+[2018.10.20-00.01.11:598][611]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.20-00.01.11:598][611]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.20-00.01.11:598][611]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.20-00.01.11:605][611]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.20-00.01.11:608][611]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.316
+[2018.10.20-00.01.11:609][611]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.01.16:849][706]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.01.16:850][706]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-00.01.16:897][706]LogSlate: Window 'QuincyTheQuadrapus Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.20-00.01.16:940][706]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.20-00.01.16:941][706]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.01.17:128][707]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.10.20-00.01.27:667][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LevelUI" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset" SILENT=true
+[2018.10.20-00.01.27:704][133]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/LevelUI5E6B66CA4D9C362D543617A388661784.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset'
+[2018.10.20-00.01.28:560][149]BlueprintLog: New page: Compile LevelUI
+[2018.10.20-00.01.29:153][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LevelUI" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset" SILENT=true
+[2018.10.20-00.01.29:188][155]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/LevelUI30B87D5644022725F699169847904935.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset'
+[2018.10.20-00.01.29:651][164]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.20-00.01.29:700][164]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.01.29:700][164]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.20-00.01.29:700][164]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 19, 2018, 4:01:29 PM)
+[2018.10.20-00.01.29:700][164]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.20-00.01.29:727][164]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026278s)
+[2018.10.20-00.01.29:729][164]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.20-00.01.29:729][164]LogPlayLevel: PIE: World Init took: (0.002395s)
+[2018.10.20-00.01.29:729][164]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.029044s)
+[2018.10.20-00.01.29:886][164]LogInit: XAudio2 using 'Headset Earphone (5- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.20-00.01.29:906][164]LogInit: FAudioDevice initialized.
+[2018.10.20-00.01.29:950][164]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-00.01.30:059][164]LogLoad: Game class is 'LevelGM_C'
+[2018.10.20-00.01.30:065][164]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-20.01.30
+[2018.10.20-00.01.30:065][164]LogWorld: Bringing up level for play took: 0.003378
+[2018.10.20-00.01.30:083][164]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.20-00.01.30:083][164]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.20-00.01.30:083][164]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.20-00.01.30:096][164]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.20-00.01.30:101][164]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.192
+[2018.10.20-00.01.30:101][164]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.01.32:128][198]LogBlueprintUserMessages: [Quincy_C_0] WIN
+[2018.10.20-00.01.40:636][331]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.01.40:636][331]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-00.01.40:668][331]LogSlate: Window 'QuincyTheQuadrapus Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.20-00.01.40:709][331]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.20-00.01.40:710][331]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.01.40:895][332]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.10.20-00.01.42:778][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LevelUI" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset" SILENT=true
+[2018.10.20-00.01.42:811][388]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/LevelUID0820C804F8655D9A78B4982A70D8825.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset'
+[2018.10.20-00.02.00:130][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LevelUI" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset" SILENT=true
+[2018.10.20-00.02.00:167][709]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/LevelUIF63689A049F0A02FAEC6ECA2E7E3BF21.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset'
+[2018.10.20-00.02.16:913][957]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Quincy.Quincy
+[2018.10.20-00.02.18:123][998]LogSlate: Took 0.000576 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.20-00.02.26:528][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Quincy" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/Blueprints/Quincy.uasset" SILENT=true
+[2018.10.20-00.02.26:621][746]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/Quincy5F0985CA4DDDD2E54BCD32AE432B7A73.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/Blueprints/Quincy.uasset'
+[2018.10.20-00.02.27:363][803]BlueprintLog: New page: Compile Quincy
+[2018.10.20-00.02.28:153][832]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Quincy" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/Blueprints/Quincy.uasset" SILENT=true
+[2018.10.20-00.02.28:246][832]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/Quincy6880889B4333DC89D7692F95AA6A29C2.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/Blueprints/Quincy.uasset'
+[2018.10.20-00.02.28:701][880]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.20-00.02.28:749][880]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.02.28:749][880]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.10.20-00.02.28:756][880]LogPlayLevel: [PlayLevel] Compiling LevelUI before play...
+[2018.10.20-00.02.29:062][880]LogPlayLevel: PlayLevel: Blueprint regeneration took 313 ms (1 blueprints)
+[2018.10.20-00.02.29:063][880]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 19, 2018, 4:02:29 PM)
+[2018.10.20-00.02.29:063][880]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.20-00.02.29:087][880]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023963s)
+[2018.10.20-00.02.29:088][880]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.20-00.02.29:089][880]LogPlayLevel: PIE: World Init took: (0.001626s)
+[2018.10.20-00.02.29:089][880]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.025932s)
+[2018.10.20-00.02.29:235][880]LogInit: XAudio2 using 'Headset Earphone (5- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.20-00.02.29:251][880]LogInit: FAudioDevice initialized.
+[2018.10.20-00.02.29:293][880]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-00.02.29:397][880]LogLoad: Game class is 'LevelGM_C'
+[2018.10.20-00.02.29:402][880]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-20.02.29
+[2018.10.20-00.02.29:403][880]LogWorld: Bringing up level for play took: 0.002948
+[2018.10.20-00.02.29:418][880]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.20-00.02.29:418][880]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.20-00.02.29:418][880]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.20-00.02.29:427][880]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.20-00.02.29:428][880]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.136
+[2018.10.20-00.02.29:429][880]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.02.35:082][286]LogBlueprintUserMessages: [Quincy_C_0] WIN
+[2018.10.20-00.02.38:936][532]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.02.38:938][532]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-00.02.38:972][532]LogSlate: Window 'QuincyTheQuadrapus Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.20-00.02.39:009][532]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.20-00.02.39:010][532]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.02.39:147][533]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.10.20-00.02.53:962][ 53]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UWidget::IsVisible' [Element not found.]
+[2018.10.20-00.03.48:071][822]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LevelUI" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset" SILENT=true
+[2018.10.20-00.03.48:120][822]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/LevelUI66AA741844FDD33183B3E09874BB6CCF.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset'
+[2018.10.20-00.03.53:159][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LevelUI" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset" SILENT=true
+[2018.10.20-00.03.53:211][232]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/LevelUI64DB7C4B4E3E5F86827C48AFAF94D2FC.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset'
+[2018.10.20-00.04.00:045][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LevelUI" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset" SILENT=true
+[2018.10.20-00.04.00:104][739]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/LevelUI9BFED9EC482EB375603E319FC47B478C.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset'
+[2018.10.20-00.04.01:481][843]BlueprintLog: New page: Compile LevelUI
+[2018.10.20-00.04.02:268][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LevelUI" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset" SILENT=true
+[2018.10.20-00.04.02:316][872]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/LevelUI07B3075C450807534E42B28AF5EADC63.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset'
+[2018.10.20-00.04.03:851][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LevelUI" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset" SILENT=true
+[2018.10.20-00.04.03:905][991]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/LevelUI91D7A3AD4FD54FF504BB2AA8BE868D91.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset'
+[2018.10.20-00.04.13:169][886]LogSlate: Took 0.000541 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.10.20-00.04.31:672][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Quincy" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/Blueprints/Quincy.uasset" SILENT=true
+[2018.10.20-00.04.31:782][585]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/Quincy471B71C34F41C0CFFEF9629B72E81B11.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/Blueprints/Quincy.uasset'
+[2018.10.20-00.05.01:512][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Quincy" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/Blueprints/Quincy.uasset" SILENT=true
+[2018.10.20-00.05.01:621][ 38]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/QuincyBFCA6F9E42EDBEFE602637B435F99FE9.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/Blueprints/Quincy.uasset'
+[2018.10.20-00.05.02:140][ 74]BlueprintLog: New page: Compile Quincy
+[2018.10.20-00.05.02:842][ 81]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Quincy" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/Blueprints/Quincy.uasset" SILENT=true
+[2018.10.20-00.05.02:948][ 81]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/Quincy261CF70C4D8D40C024D4EC9DCD89A5C3.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/Blueprints/Quincy.uasset'
+[2018.10.20-00.05.03:487][120]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.20-00.05.03:538][120]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.05.03:538][120]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.20-00.05.03:538][120]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 19, 2018, 4:05:03 PM)
+[2018.10.20-00.05.03:539][120]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.20-00.05.03:562][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023079s)
+[2018.10.20-00.05.03:563][120]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.20-00.05.03:563][120]LogPlayLevel: PIE: World Init took: (0.001244s)
+[2018.10.20-00.05.03:563][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024580s)
+[2018.10.20-00.05.03:706][120]LogInit: XAudio2 using 'Headset Earphone (5- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.20-00.05.03:720][120]LogInit: FAudioDevice initialized.
+[2018.10.20-00.05.03:764][120]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-00.05.03:881][120]LogLoad: Game class is 'LevelGM_C'
+[2018.10.20-00.05.03:888][120]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-20.05.03
+[2018.10.20-00.05.03:890][120]LogWorld: Bringing up level for play took: 0.006029
+[2018.10.20-00.05.03:907][120]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.20-00.05.03:907][120]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.20-00.05.03:907][120]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.20-00.05.03:914][120]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.20-00.05.03:920][120]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.373
+[2018.10.20-00.05.03:920][120]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.05.09:643][449]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.20-00.05.13:305][664]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.05.13:306][664]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-00.05.13:342][664]LogSlate: Window 'QuincyTheQuadrapus Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.20-00.05.13:393][664]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.20-00.05.13:393][664]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.05.13:552][665]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.10.20-00.05.16:296][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Quincy" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/Blueprints/Quincy.uasset" SILENT=true
+[2018.10.20-00.05.16:390][930]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/Quincy91A307B847BA14D49A008A80E31F94BC.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/Blueprints/Quincy.uasset'
+[2018.10.20-00.05.40:006][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PauseMenu" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/PauseMenu.uasset" SILENT=true
+[2018.10.20-00.05.40:060][624]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/PauseMenuF9A06B4542276B7730750988B9A4B3B3.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/PauseMenu.uasset'
+[2018.10.20-00.05.40:979][705]BlueprintLog: New page: Compile PauseMenu
+[2018.10.20-00.05.57:098][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PauseMenu" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/PauseMenu.uasset" SILENT=true
+[2018.10.20-00.05.57:139][951]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/PauseMenu0567DC084B13671C22B83AAA3D792A7C.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/PauseMenu.uasset'
+[2018.10.20-00.05.58:338][ 71]BlueprintLog: New page: Compile PauseMenu
+[2018.10.20-00.05.59:377][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PauseMenu" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/PauseMenu.uasset" SILENT=true
+[2018.10.20-00.05.59:421][131]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/PauseMenu7A1EFB3A4216A5A97F9C02AD744EB3DB.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/PauseMenu.uasset'
+[2018.10.20-00.06.15:579][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LevelUI" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset" SILENT=true
+[2018.10.20-00.06.15:638][390]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/LevelUI2007F30E4FDBD7B782A30CBD5FC21074.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset'
+[2018.10.20-00.06.28:495][410]BlueprintLog: New page: Compile LevelUI
+[2018.10.20-00.06.29:191][434]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LevelUI" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset" SILENT=true
+[2018.10.20-00.06.29:255][434]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/LevelUI7D01CE43433AB12C384ED68977F76BFA.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset'
+[2018.10.20-00.06.30:366][534]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.20-00.06.30:448][534]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.06.30:449][534]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.20-00.06.30:449][534]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 19, 2018, 4:06:30 PM)
+[2018.10.20-00.06.30:449][534]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.20-00.06.30:477][534]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027227s)
+[2018.10.20-00.06.30:479][534]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.20-00.06.30:479][534]LogPlayLevel: PIE: World Init took: (0.002471s)
+[2018.10.20-00.06.30:479][534]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.030008s)
+[2018.10.20-00.06.30:631][534]LogInit: XAudio2 using 'Headset Earphone (5- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.20-00.06.30:649][534]LogInit: FAudioDevice initialized.
+[2018.10.20-00.06.30:693][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-00.06.30:809][534]LogLoad: Game class is 'LevelGM_C'
+[2018.10.20-00.06.30:817][534]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-20.06.30
+[2018.10.20-00.06.30:818][534]LogWorld: Bringing up level for play took: 0.006325
+[2018.10.20-00.06.30:834][534]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.20-00.06.30:834][534]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.20-00.06.30:834][534]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.20-00.06.30:839][534]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.20-00.06.30:841][534]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.549
+[2018.10.20-00.06.30:842][534]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.06.34:997][794]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.20-00.06.35:477][828]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.06.35:478][828]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-00.06.35:523][828]LogSlate: Window 'QuincyTheQuadrapus Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.20-00.06.35:575][828]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.20-00.06.35:575][828]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.06.35:741][829]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.10.20-00.07.01:099][736]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LevelUI" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset" SILENT=true
+[2018.10.20-00.07.01:156][736]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/LevelUI2D729F1B4B40153174C21883BF4CC053.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset'
+[2018.10.20-00.07.02:124][811]BlueprintLog: New page: Compile LevelUI
+[2018.10.20-00.07.02:757][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LevelUI" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset" SILENT=true
+[2018.10.20-00.07.02:826][823]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/LevelUI4685C7A5493F62866465FB99C43D1808.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset'
+[2018.10.20-00.07.03:470][871]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.20-00.07.03:516][871]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.07.03:517][871]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.20-00.07.03:517][871]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 19, 2018, 4:07:03 PM)
+[2018.10.20-00.07.03:518][871]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.20-00.07.03:543][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024904s)
+[2018.10.20-00.07.03:544][871]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.20-00.07.03:545][871]LogPlayLevel: PIE: World Init took: (0.002107s)
+[2018.10.20-00.07.03:545][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.027345s)
+[2018.10.20-00.07.03:692][871]LogInit: XAudio2 using 'Headset Earphone (5- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.20-00.07.03:708][871]LogInit: FAudioDevice initialized.
+[2018.10.20-00.07.03:749][871]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-00.07.03:873][871]LogLoad: Game class is 'LevelGM_C'
+[2018.10.20-00.07.03:878][871]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-20.07.03
+[2018.10.20-00.07.03:878][871]LogWorld: Bringing up level for play took: 0.003543
+[2018.10.20-00.07.03:896][871]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.20-00.07.03:896][871]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.20-00.07.03:896][871]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.20-00.07.03:907][871]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.20-00.07.03:910][871]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.383
+[2018.10.20-00.07.03:910][871]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.07.07:542][ 74]LogBlueprintUserMessages: [Quincy_C_0] WIN
+[2018.10.20-00.07.08:000][102]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.07.08:000][102]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-00.07.08:034][102]LogSlate: Window 'QuincyTheQuadrapus Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.20-00.07.08:082][102]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.20-00.07.08:083][102]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.07.08:259][103]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.10.20-00.07.13:557][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LevelUI" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset" SILENT=true
+[2018.10.20-00.07.13:603][551]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/LevelUI523EB51747EF48449502ED92BFA663AE.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset'
+[2018.10.20-00.07.15:704][763]BlueprintLog: New page: Compile LevelUI
+[2018.10.20-00.07.16:419][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LevelUI" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset" SILENT=true
+[2018.10.20-00.07.16:472][795]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/LevelUI43C0B4CC47C4C16BE390798335C8E5C3.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset'
+[2018.10.20-00.07.17:081][853]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.20-00.07.17:127][853]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.07.17:127][853]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.20-00.07.17:128][853]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 19, 2018, 4:07:17 PM)
+[2018.10.20-00.07.17:128][853]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.20-00.07.17:146][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018088s)
+[2018.10.20-00.07.17:148][853]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.20-00.07.17:148][853]LogPlayLevel: PIE: World Init took: (0.001510s)
+[2018.10.20-00.07.17:148][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019960s)
+[2018.10.20-00.07.17:286][853]LogInit: XAudio2 using 'Headset Earphone (5- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.20-00.07.17:304][853]LogInit: FAudioDevice initialized.
+[2018.10.20-00.07.17:351][853]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-00.07.17:460][853]LogLoad: Game class is 'LevelGM_C'
+[2018.10.20-00.07.17:466][853]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-20.07.17
+[2018.10.20-00.07.17:467][853]LogWorld: Bringing up level for play took: 0.004163
+[2018.10.20-00.07.17:483][853]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.20-00.07.17:483][853]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.20-00.07.17:483][853]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.20-00.07.17:490][853]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.20-00.07.17:493][853]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.201
+[2018.10.20-00.07.17:494][853]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.07.20:512][ 22]LogBlueprintUserMessages: [Quincy_C_0] WIN
+[2018.10.20-00.07.21:945][101]LogBlueprintUserMessages: [Quincy_C_0] WIN
+[2018.10.20-00.07.28:053][484]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.20-00.07.38:708][186]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.20-00.07.41:533][369]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.20-00.07.42:606][434]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.07.42:607][434]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-00.07.42:643][434]LogSlate: Window 'QuincyTheQuadrapus Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.20-00.07.42:694][434]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.20-00.07.42:694][434]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.07.42:845][435]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.10.20-00.08.10:841][881]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/WinScreen.WinScreen
+[2018.10.20-00.09.27:727][137]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WinScreen" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/WinScreen.uasset" SILENT=true
+[2018.10.20-00.09.27:761][137]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/WinScreen8A7971BD4DF223E1D91470A28FC65212.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/WinScreen.uasset'
+[2018.10.20-00.09.50:276][970]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WinScreen" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/WinScreen.uasset" SILENT=true
+[2018.10.20-00.09.50:314][970]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/WinScreen9C619AE44FDC42AC785EF3ACFCB57520.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/WinScreen.uasset'
+[2018.10.20-00.10.02:861][442]BlueprintLog: New page: Compile LevelUI
+[2018.10.20-00.10.03:523][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LevelUI" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset" SILENT=true
+[2018.10.20-00.10.03:580][445]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/LevelUI7E961A6C4980FAAAD03A83B44BA88A24.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset'
+[2018.10.20-00.10.05:475][482]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WinScreen" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/WinScreen.uasset" SILENT=true
+[2018.10.20-00.10.05:505][482]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/WinScreen94DEC2D84ED19289A1B963916AEBC255.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/WinScreen.uasset'
+[2018.10.20-00.10.18:425][925]BlueprintLog: New page: Compile WinScreen
+[2018.10.20-00.10.29:830][181]BlueprintLog: New page: Compile LevelUI
+[2018.10.20-00.10.30:611][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LevelUI" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset" SILENT=true
+[2018.10.20-00.10.30:662][186]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/LevelUI96B977CD4EAEDE90B3968392701A2ABE.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset'
+[2018.10.20-00.10.31:025][193]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.20-00.10.31:110][193]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.10.31:110][193]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.20-00.10.31:111][193]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 19, 2018, 4:10:31 PM)
+[2018.10.20-00.10.31:111][193]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.20-00.10.31:133][193]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022716s)
+[2018.10.20-00.10.31:137][193]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.20-00.10.31:139][193]LogPlayLevel: PIE: World Init took: (0.004920s)
+[2018.10.20-00.10.31:139][193]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.028135s)
+[2018.10.20-00.10.31:298][193]LogInit: XAudio2 using 'Headset Earphone (5- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.20-00.10.31:314][193]LogInit: FAudioDevice initialized.
+[2018.10.20-00.10.31:352][193]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-00.10.31:458][193]LogLoad: Game class is 'LevelGM_C'
+[2018.10.20-00.10.31:465][193]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-20.10.31
+[2018.10.20-00.10.31:466][193]LogWorld: Bringing up level for play took: 0.004792
+[2018.10.20-00.10.31:481][193]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.20-00.10.31:482][193]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.20-00.10.31:482][193]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.20-00.10.31:497][193]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.20-00.10.31:500][193]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.207
+[2018.10.20-00.10.31:500][193]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.11.25:129][222]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.11.25:130][222]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-00.11.25:176][222]LogSlate: Window 'QuincyTheQuadrapus Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.20-00.11.25:213][222]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.20-00.11.25:213][222]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.11.25:396][223]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.10.20-00.12.01:647][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LevelUI" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset" SILENT=true
+[2018.10.20-00.12.01:724][192]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/LevelUI3FFDD9B14863074423A2DF993AF824BD.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset'
+[2018.10.20-00.12.33:737][149]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LevelUI" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset" SILENT=true
+[2018.10.20-00.12.33:802][149]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/LevelUI5DA7CA7C4D21C6A27DAD01B30EE4D1E9.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset'
+[2018.10.20-00.12.36:853][435]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LevelUI" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset" SILENT=true
+[2018.10.20-00.12.36:918][435]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/LevelUIC54E44284F1F5164B228C383A854A32B.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset'
+[2018.10.20-00.12.37:312][466]BlueprintLog: New page: Compile LevelUI
+[2018.10.20-00.12.52:635][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Quincy" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/Blueprints/Quincy.uasset" SILENT=true
+[2018.10.20-00.12.52:757][685]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/QuincyD3293EE7418576C3E18122AF173A7848.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/Blueprints/Quincy.uasset'
+[2018.10.20-00.12.53:035][709]BlueprintLog: New page: Compile Quincy
+[2018.10.20-00.12.53:672][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Quincy" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/Blueprints/Quincy.uasset" SILENT=true
+[2018.10.20-00.12.53:772][719]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/Quincy1CB82C1D4C70D7C974E1169952829A51.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/Blueprints/Quincy.uasset'
+[2018.10.20-00.12.54:180][755]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.20-00.12.54:239][755]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.12.54:239][755]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.20-00.12.54:239][755]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 19, 2018, 4:12:54 PM)
+[2018.10.20-00.12.54:240][755]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.20-00.12.54:261][755]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020993s)
+[2018.10.20-00.12.54:262][755]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.20-00.12.54:263][755]LogPlayLevel: PIE: World Init took: (0.001971s)
+[2018.10.20-00.12.54:263][755]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023206s)
+[2018.10.20-00.12.54:424][755]LogInit: XAudio2 using 'Headset Earphone (5- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.20-00.12.54:440][755]LogInit: FAudioDevice initialized.
+[2018.10.20-00.12.54:481][755]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-00.12.54:598][755]LogLoad: Game class is 'LevelGM_C'
+[2018.10.20-00.12.54:603][755]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-20.12.54
+[2018.10.20-00.12.54:604][755]LogWorld: Bringing up level for play took: 0.003964
+[2018.10.20-00.12.54:623][755]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.20-00.12.54:623][755]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.20-00.12.54:623][755]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.20-00.12.54:634][755]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.20-00.12.54:637][755]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.345
+[2018.10.20-00.12.54:638][755]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.13.00:521][147]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.13.00:521][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-00.13.00:563][147]LogSlate: Window 'QuincyTheQuadrapus Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.20-00.13.00:599][147]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.20-00.13.00:599][147]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.13.00:743][148]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.10.20-00.13.25:335][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LevelUI" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset" SILENT=true
+[2018.10.20-00.13.25:407][ 13]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/LevelUIFD1E1F464D5CF5C253621AA685DDF736.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset'
+[2018.10.20-00.13.38:902][310]BlueprintLog: New page: Compile LevelUI
+[2018.10.20-00.13.39:641][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LevelUI" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset" SILENT=true
+[2018.10.20-00.13.39:718][328]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/LevelUI5D6BDEC645811610234712A945943BAC.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset'
+[2018.10.20-00.13.40:256][366]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.20-00.13.40:314][366]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.13.40:314][366]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.20-00.13.40:314][366]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 19, 2018, 4:13:40 PM)
+[2018.10.20-00.13.40:315][366]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.20-00.13.40:341][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026403s)
+[2018.10.20-00.13.40:342][366]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.20-00.13.40:342][366]LogPlayLevel: PIE: World Init took: (0.001272s)
+[2018.10.20-00.13.40:342][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.027936s)
+[2018.10.20-00.13.40:505][366]LogInit: XAudio2 using 'Headset Earphone (5- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.20-00.13.40:519][366]LogInit: FAudioDevice initialized.
+[2018.10.20-00.13.40:565][366]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-00.13.40:679][366]LogLoad: Game class is 'LevelGM_C'
+[2018.10.20-00.13.40:684][366]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-20.13.40
+[2018.10.20-00.13.40:685][366]LogWorld: Bringing up level for play took: 0.003175
+[2018.10.20-00.13.40:704][366]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.20-00.13.40:704][366]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.20-00.13.40:704][366]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.20-00.13.40:713][366]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.20-00.13.40:716][366]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.423
+[2018.10.20-00.13.40:717][366]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.13.43:269][492]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.13.43:270][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-00.13.43:311][492]LogSlate: Window 'QuincyTheQuadrapus Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.20-00.13.43:358][492]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.20-00.13.43:360][492]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.13.43:538][493]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.10.20-00.13.53:598][961]BlueprintLog: New page: Compile LevelUI
+[2018.10.20-00.13.54:197][962]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/LevelUI" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset" SILENT=true
+[2018.10.20-00.13.54:270][962]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/LevelUI0AF850DD48E3E7D94232649F66253F22.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/LevelUI.uasset'
+[2018.10.20-00.13.54:640][969]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.20-00.13.54:726][969]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.13.54:726][969]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.20-00.13.54:726][969]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 19, 2018, 4:13:54 PM)
+[2018.10.20-00.13.54:726][969]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.20-00.13.54:742][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016084s)
+[2018.10.20-00.13.54:744][969]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.20-00.13.54:744][969]LogPlayLevel: PIE: World Init took: (0.001677s)
+[2018.10.20-00.13.54:744][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017989s)
+[2018.10.20-00.13.54:909][969]LogInit: XAudio2 using 'Headset Earphone (5- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.20-00.13.54:925][969]LogInit: FAudioDevice initialized.
+[2018.10.20-00.13.54:966][969]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-00.13.55:074][969]LogLoad: Game class is 'LevelGM_C'
+[2018.10.20-00.13.55:080][969]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-20.13.55
+[2018.10.20-00.13.55:081][969]LogWorld: Bringing up level for play took: 0.004571
+[2018.10.20-00.13.55:098][969]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.20-00.13.55:098][969]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.20-00.13.55:098][969]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.20-00.13.55:107][969]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.20-00.13.55:109][969]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.817
+[2018.10.20-00.13.55:110][969]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.14.05:470][151]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.20-00.14.06:444][170]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.14.06:445][170]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-00.14.06:485][170]LogSlate: Window 'QuincyTheQuadrapus Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.10.20-00.14.06:526][170]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.20-00.14.06:527][170]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.14.06:714][171]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2018.10.20-00.14.13:223][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WinScreen" FILE="../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/WinScreen.uasset" SILENT=true
+[2018.10.20-00.14.13:254][369]LogSavePackage: Moving '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Saved/WinScreenE31C5AF24038A254E4DC02B67F31AB36.tmp' to '../../../../../../Users/mjdea/Documents/Development/quincythequadrapus/QuincyTheQuadrapus/Content/UI/WinScreen.uasset'
+[2018.10.20-00.14.13:963][413]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.20-00.14.14:027][413]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.10.20-00.14.14:027][413]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.10.20-00.14.14:033][413]LogPlayLevel: [PlayLevel] Compiling WinScreen before play...
+[2018.10.20-00.14.14:506][413]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: === Handled ensure: ===
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: 
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: Ensure condition failed: !IsGarbageCollecting() [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\UMG\Private\Slate\SObjectWidget.cpp] [Line: 41]
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: SObjectWidget for 'Button_C /Engine/Transient.World_9:WinScreen_C_21.WidgetTree_0.Button' destroyed while collecting garbage.  This can lead to multiple GCs being required to cleanup the object.  Possible causes might be,
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: 1) ReleaseSlateResources not being implemented for the owner of this pointer.
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: 2) You may just be holding onto some slate pointers on an actor that don't get reset until the actor is Garbage Collected.  You should avoid doing this, and instead reset those references when the actor is Destroyed.
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: Stack: 
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: [Callstack] 0x00007fff438271f6 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: [Callstack] 0x00007fff43560c92 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: [Callstack] 0x00007fff4357b356 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: [Callstack] 0x00007fff20d69a63 UE4Editor-UMG.dll!UnknownFunction []
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: [Callstack] 0x00007fff472f7496 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: [Callstack] 0x00007fff47300255 UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: [Callstack] 0x00007fff20e333bb UE4Editor-UMG.dll!UnknownFunction []
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: [Callstack] 0x00007fff441f2ad1 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: [Callstack] 0x00007fff441c756e UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: [Callstack] 0x00007fff44143f54 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: [Callstack] 0x00007fff441434ae UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: [Callstack] 0x00007fff127e718c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: [Callstack] 0x00007fff127cf701 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: [Callstack] 0x00007fff127ee536 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: [Callstack] 0x00007fff12206b41 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: [Callstack] 0x00007fff12aff666 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: [Callstack] 0x00007ff6bcff5cbd UE4Editor.exe!UnknownFunction []
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: [Callstack] 0x00007ff6bd005b3c UE4Editor.exe!UnknownFunction []
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: [Callstack] 0x00007ff6bd005bba UE4Editor.exe!UnknownFunction []
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: [Callstack] 0x00007ff6bd013dac UE4Editor.exe!UnknownFunction []
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: [Callstack] 0x00007ff6bd015aaa UE4Editor.exe!UnknownFunction []
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: [Callstack] 0x00007fff7c3b3034 KERNEL32.DLL!UnknownFunction []
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: [Callstack] 0x00007fff7c501461 ntdll.dll!UnknownFunction []
+[2018.10.20-00.14.14:507][413]LogOutputDevice: Error: 
+[2018.10.20-00.14.14:517][413]LogStats:                SubmitErrorReport -  0.000 s
+[2018.10.20-00.14.15:012][413]LogStats:                    SendNewReport -  0.496 s
+[2018.10.20-00.14.15:012][413]LogStats:             FDebug::EnsureFailed -  0.508 s
+[2018.10.20-00.14.15:016][413]LogPlayLevel: PlayLevel: Blueprint regeneration took 988 ms (1 blueprints)
+[2018.10.20-00.14.15:016][413]PIE: New page: PIE session: ThirdPersonExampleMap (Oct 19, 2018, 4:14:15 PM)
+[2018.10.20-00.14.15:016][413]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.10.20-00.14.15:045][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028183s)
+[2018.10.20-00.14.15:047][413]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.10.20-00.14.15:047][413]LogPlayLevel: PIE: World Init took: (0.002819s)
+[2018.10.20-00.14.15:048][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.031271s)
+[2018.10.20-00.14.15:253][413]LogInit: XAudio2 using 'Headset Earphone (5- Corsair VOID Wireless Gaming Dongle)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.10.20-00.14.15:276][413]LogInit: FAudioDevice initialized.
+[2018.10.20-00.14.15:319][413]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-00.14.15:443][413]LogLoad: Game class is 'LevelGM_C'
+[2018.10.20-00.14.15:448][413]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.10.19-20.14.15
+[2018.10.20-00.14.15:449][413]LogWorld: Bringing up level for play took: 0.004612
+[2018.10.20-00.14.15:464][413]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.20-00.14.15:464][413]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.10.20-00.14.15:464][413]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.10.20-00.14.15:475][413]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.10.20-00.14.15:477][413]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.185
+[2018.10.20-00.14.15:478][413]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
